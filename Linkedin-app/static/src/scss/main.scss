@@ -1,0 +1,20 @@
+@import 'base/_variables';
+
+
+
+@import "pages/_mobile-styles";
+
+// Tablet Styles
+@media only screen and (min-width: $breakpoint-tablet) {
+  @import "pages/_tablet-styles";
+}
+
+// Desktop Styles
+@media only screen and (min-width: $breakpoint-desktop) {
+  @import "pages/_desktop-styles";
+}
+
+// HD Styles
+@media only screen and (min-width: $breakpoint-hd) {
+  @import "pages/_hd-styles";
+}
