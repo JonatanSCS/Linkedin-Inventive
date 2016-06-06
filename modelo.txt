@@ -1,0 +1,73 @@
+** URLS **
+
+	- Lista completa de usuarios:
+		https://linkedin.ihk.io/profiles/
+
+	- Información de un usuario por ID:
+		https://linkedin.ihk.io/profiles/id/
+
+	- Entradas escritas por usuario:
+		https://linkedin.ihk.io/profiles/id/entries/ 
+
+	- Experiencia laboral por ID:
+		https://linkedin.ihk.io/profiles/id/experience/
+	-Educación por ID:
+		https://linkedin.ihk.io/profiles/id/education/
+	- Empresas que sigue el usuario
+		 https://linkedin.ihk.io/profiles/id/following/
+
+
+** Modelos **
+
+	- Usuarios Lista:
+		Url → prev_url
+		Cantidad de usuarios → count
+		Datos → data
+
+
+	- Usuario Especifico:
+		Cuenta de Dribble (red social) →dribble
+		Imagen de perfil → picture
+		Cuenta de Facebook → facebook
+		Numero de conexiones → connections
+		Nombre → name
+		Trabajo → job
+		Cuenta de Github → github
+		Website personal → website
+		Número de Followers →followers
+		Id → id
+		Cuenta de Twitter → twitter
+		Status → status
+
+
+	- Usuario no existente:
+		Mensaje de error → message
+
+
+	- Entradas por usuario:
+		Titulo → title
+		Contenido → content
+		Cover → cover
+		ID → id
+
+	- Experiencia Laboral
+		Puesto → role
+		Compañia → company
+		Fecha de Inicio → start_date
+		Fecha final → end_date
+		ID → id
+
+	- Educación
+		Escuela → school
+		Carrera → career
+		Inicio de carrera → start_date
+		Final de carrera → end_data
+		ID → id
+	- Empresa que sigue el usuario
+		Logo → logo
+		Nombre → name
+		ID(De la empresa NO del usuario) → id
+
+TODAS LAS CONSULTAS TIENEN CAMPOS DE: 
+	"data" con el contenido
+	"status" con "error" & "ok" como  
